@@ -11,7 +11,7 @@ let draggingCorner = false;
 let draggingTrail = false;
 
 function setup() {
-  createCanvas(740, 660);
+  createCanvas(1740, 1660);
   pixelDensity(1);
   cam = createCapture(VIDEO);
   cam.size(camW, camH);
